@@ -1,0 +1,13 @@
+.MessagePageMasterContainer{
+    width: 100vw;
+}
+
+.MessagePageSeachBarContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.MessageTabMessagePageContainer{
+    margin-top: 100px;
+}

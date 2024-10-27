@@ -1,4 +1,3 @@
-import { messageListSchema } from '../models/messageListModel.js';
 import {user as User} from '../models/userModel.js'; // Import the user model so that we can create the CRUD methods
 import bcrypt from "bcrypt"; // Password hashing algorithm
 

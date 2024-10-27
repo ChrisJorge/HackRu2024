@@ -1,0 +1,26 @@
+.IndividualMessageMasterContainerRight{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    font-weight: 600;
+    border-radius: 2%;
+    justify-content: right;
+    overflow-x: hidden;
+    margin-right: 2%;
+}
+
+.IndividualMessageContainerRight{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap;
+    font-weight: 600;
+    border-radius: 2%;
+    justify-content: right;
+}
+
+.IndividualMessageActualMessage{
+    color: black;
+}

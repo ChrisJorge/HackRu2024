@@ -1,0 +1,102 @@
+.PostsMasterContainer{
+    margin-top: 25px;
+    width: 100%;
+    height: 100%;
+    color: hsl(0, 0%, 0%);
+    border-radius: var(--template-shape-borderRadius);
+    border: 1px solid var(--template-palette-divider);
+    background-color: hsl(270, 33%, 95%);
+    transition: border 120ms ease-in;
+}
+
+.PostContainer{
+    padding: 5px;
+}
+.PostCreatedBy{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.PostTitle{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.PostBody{
+    margin-bottom: 10px;
+}
+
+.Spacer{
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.CreatePostContainer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.CreatePostBTN{
+    background: none;
+    border: none;
+}
+.CreatePostBTN:hover{
+   background-color: gray;
+}
+
+.test{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+    width: 100%;
+}
+
+.PostInput2{
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.4375em;
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 80%;
+    position: relative;
+    padding: 8px 12px;
+    color: hsl(0, 0%, 100%);
+    border-radius: var(--template-shape-borderRadius);
+    border: 1px solid var(--template-palette-divider);
+    background-color: hsl(220, 35%, 3%);
+    transition: border 120ms ease-in;
+    height: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.ReplyBTN{
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+.PostReplyForm{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReplyBTN{
+    height: 30px;
+    margin-bottom: 15px;
+}

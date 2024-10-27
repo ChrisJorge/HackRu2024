@@ -1,0 +1,11 @@
+.PostReplyMasterContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.PostReplyUserName{
+    font-weight: bold;
+    margin-right: 5px;
+}

@@ -1,0 +1,141 @@
+.OnboardMasterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.OnboardFormMasterContainer{
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    transition: 100ms;
+    border-radius: 8px;
+    border: 1px solid rgba(51, 60, 77, 0.6);
+    background: rgba(5, 7, 10, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 45%;
+    height: 80%;
+    padding: 32px;
+    gap: 10px;
+    margin: auto;
+    box-shadow: rgba(9, 11, 17, 0.5) 0px 5px 15px 0px, rgba(19, 23, 32, 0.08) 0px 15px 35px -5px;
+}
+
+.Title{
+    margin: 0px;
+    font-family: Inter, "sans-serif";
+    font-weight: 600;
+    line-height: 1.5;
+    width: 100%;
+    font-size: clamp(2rem, 10vw, 2.15rem);
+    font-size: 1.3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+.OnBoardLabel{
+    color:hsl(220, 20%, 65%);
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 1.275rem;
+    line-height: 1.4375em;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 2%;
+}
+
+.ClassesBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: solid white 1px;
+    width: 100%;
+    height: 30%;
+    overflow-y: scroll;
+}
+
+.OnBoardEditBTN{
+    color: black;
+    background-color: rgb(245, 246, 250);
+    background-image: linear-gradient(rgb(235, 238, 244), rgb(245, 246, 250));
+    box-shadow: rgb(189, 199, 219) 0px -1px 0px inset;
+    border: 1px solid rgb(245, 246, 250);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    box-sizing: border-box;
+    font-family: Inter, "sans-serif";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    --variant-textColor: var(--template-palette-primary-main);
+    --variant-outlinedColor: var(--template-palette-primary-main);
+    --variant-outlinedBorder: rgba(var(--template-palette-primary-mainChannel) / 0.5);
+    --variant-containedColor: var(--template-palette-primary-contrastText);
+    --variant-containedBg: var(--template-palette-primary-main);
+    width: 10%;
+    text-transform: none;
+    height: 2.5rem;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+.OnBoardBTN{
+    color: black;
+    background-color: rgb(245, 246, 250);
+    background-image: linear-gradient(rgb(235, 238, 244), rgb(245, 246, 250));
+    box-shadow: rgb(189, 199, 219) 0px -1px 0px inset;
+    border: 1px solid rgb(245, 246, 250);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    box-sizing: border-box;
+    font-family: Inter, "sans-serif";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    --variant-textColor: var(--template-palette-primary-main);
+    --variant-outlinedColor: var(--template-palette-primary-main);
+    --variant-outlinedBorder: rgba(var(--template-palette-primary-mainChannel) / 0.5);
+    --variant-containedColor: var(--template-palette-primary-contrastText);
+    --variant-containedBg: var(--template-palette-primary-main);
+    width: 100%;
+    text-transform: none;
+    height: 2.5rem;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.LabelContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,88 @@
+.ProfileInfoMasterContainer{
+    height: 100%;
+}
+
+.ProfileInfoPicture{
+    font-size:150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProfileUserName{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+
+}
+
+.ClassesMasterContainer{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+} 
+
+.ClassTitle, .Title{
+    color:hsl(220, 20%, 65%);
+    font-family: Inter, "sans-serif";
+    font-weight: 400;
+    font-size: 1.275rem;
+    line-height: 1.4375em;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 8px;
+    margin-right: 2%;
+}
+
+.ClassesBox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    border: solid white 1px;
+    width: 100%;
+    height: 20%;
+    overflow-y: scroll;
+}
+
+.FlexRowContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.ProfileEnrolledClassesBTN{
+    color: black;
+    background-color: rgb(245, 246, 250);
+    background-image: linear-gradient(rgb(235, 238, 244), rgb(245, 246, 250));
+    box-shadow: rgb(189, 199, 219) 0px -1px 0px inset;
+    border: 1px solid rgb(245, 246, 250);
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    user-select: none;
+    vertical-align: middle;
+    appearance: none;
+    box-sizing: border-box;
+    font-family: Inter, "sans-serif";
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    min-width: 64px;
+    --variant-textColor: var(--template-palette-primary-main);
+    --variant-outlinedColor: var(--template-palette-primary-main);
+    --variant-outlinedBorder: rgba(var(--template-palette-primary-mainChannel) / 0.5);
+    --variant-containedColor: var(--template-palette-primary-contrastText);
+    --variant-containedBg: var(--template-palette-primary-main);
+    text-transform: none;
+    height: 2.5rem;
+    border-radius: 8px;
+}

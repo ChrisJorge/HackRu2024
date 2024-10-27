@@ -1,0 +1,16 @@
+.ProfilePageMasterContainer{
+    width: 100%;
+    height: 100vh;
+}
+
+.ProfileContainer{
+    margin-top: 55px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.NavBarContainer{
+    height: 100px;
+}

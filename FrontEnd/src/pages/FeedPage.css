@@ -1,0 +1,9 @@
+.FeedPageMasterContainer{
+    width: 100vw;
+    justify-content: center;
+}
+
+.FeedPostsContainer{
+    margin-left: 20%;
+    margin-right: 20%;
+}

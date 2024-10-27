@@ -1,0 +1,76 @@
+.ProfileCompletedClassOuterContainer{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(270, 33%, 95%);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 75px;
+}
+
+.ProfileCompletedClassMasterContainer{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    height: 60px;
+    color: hsl(0, 0%, 0%);
+    border-radius: var(--template-shape-borderRadius);
+    border: 1px solid var(--template-palette-divider);
+    background-color: hsl(270, 33%, 95%);
+    transition: border 120ms ease-in;
+}
+
+.ClassMasterContainer{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+    height: 60px;
+    color: hsl(0, 0%, 0%);
+    border-radius: var(--template-shape-borderRadius);
+    border: 1px solid var(--template-palette-divider);
+    background-color: hsl(270, 33%, 95%);
+    transition: border 120ms ease-in;
+}
+
+.ClassName{
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.ClassGrade{
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+.ClassId{
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.Delete :hover{
+color: red;
+}
+
+.DeleteBTN{
+    color: black;
+    background: transparent;
+    border: none;
+}
+
+.TutorBTNContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7px;
+}
+
+.TutorBTN{
+    color: black;
+}
+.TutorBTN:hover
+{
+    background-color: green;
+}
+
